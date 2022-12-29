@@ -8,7 +8,7 @@ local ChaseStart = game:GetService("ReplicatedStorage").GameData.ChaseStart
 if game:GetService("CoreGui"):FindFirstChild("THZIN HUB") then
    game:GetService("CoreGui"):FindFirstChild("THZIN HUB"):Destroy()
 end
-local UILib = loadstring(game:HttpGet('https://pastebin.com/FpYfPjmS'))();
+local UILib = loadstring(game:HttpGet('https://pastebin.com/raw/qgBMAWM1'))();
 local notifications = loadstring(game:HttpGet(("https://pastebin.com/raw/CcenX7YB"),true))()
 local win = UILib:Window("THZIN HUB | Doors [Beta]",Color3.fromRGB(102, 255, 153), Enum.KeyCode.RightControl)
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
